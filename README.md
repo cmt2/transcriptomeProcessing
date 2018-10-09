@@ -1,5 +1,5 @@
 # transcriptomeProcessing
-## This repository contains scripts or slurm batch files that were used to process transcriptome data (follows ![Trinity tutorials](https://github.com/trinityrnaseq/trinityrnaseq/wiki), adjusted for our data)
+## This repository contains scripts or slurm batch files that were used to process transcriptome data (follows [Trinity tutorials](https://github.com/trinityrnaseq/trinityrnaseq/wiki), adjusted for our data)
 ### Clean, assemble, annotate
 ##### First, clean the reads
 `runTrimGalore.sh`
