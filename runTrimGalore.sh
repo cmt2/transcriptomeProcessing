@@ -3,9 +3,10 @@
 #SBATCH --partition=savio2_htc
 #SBATCH --account=fc_rothfelslab
 #SBATCH --qos=savio_normal
-#SBATCH --mail-user=username@berkeley.edu
+#SBATCH --mail-user=cmt2@berkeley.edu
 #SBATCH --mail-type=ALL
 #SBATCH --mem-per-cpu=25G
+#BATCH --cpus-per-task=5
 #SBATCH --time=72:00:00 
 
 cd /global/scratch/cmt2/transcriptome_raw_data/transcriptomes_Bomarea
