@@ -5,6 +5,8 @@
 #SBATCH --qos=savio_normal
 #SBATCH --mail-user=username@berkeley.edu
 #SBATCH --mail-type=ALL
+#SBATCH --mem-per-cpu=25G
+#SBATCH --cpus-per-task=20
 #SBATCH --time=72:00:00 
 
 cd /global/scratch/cmt2/transcriptome_raw_data/transcriptomes_Bomarea
