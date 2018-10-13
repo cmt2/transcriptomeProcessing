@@ -10,9 +10,9 @@
 
 cd /global/scratch/cmt2/transcriptome_raw_data/transcriptomes_Bomarea
 
-trim_galore -o outputdir36bp_retry --paired CSJM003A_S36_L006_R1_001.fastq.gz CSJM003A_S36_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
-trim_galore -o outputdir36bp_retry --paired CSJM003B_S38_L006_R1_001.fastq.gz CSJM003B_S38_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
-trim_galore -o outputdir36bp_retry --paired CSJM003k_S39_L006_R1_001.fastq.gz CSJM003k_S39_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
+trim_galore -o outputdir36bp_retry --paired CSJM003A_S33_L006_R1_001.fastq.gz CSJM003A_S33_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
+trim_galore -o outputdir36bp_retry --paired CSJM003B_S34_L006_R1_001.fastq.gz CSJM003B_S34_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
+trim_galore -o outputdir36bp_retry --paired CSJM003k_S43_L006_R2_001.fastq.gz CSJM003k_S43_L006_R2_001.fastq.gz --retain_unpaired --dont_gzip --length 36
 
 
 
