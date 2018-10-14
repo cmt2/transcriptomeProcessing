@@ -1,10 +1,11 @@
 #!/bin/bash -l
 #SBATCH --job-name=moveL2
 #SBATCH --partition=savio2_htc
-#SBATCH --account=co_rosalind
-#SBATCH --qos=rosalind_htc2_normal
-#SBATCH --mail-user=username@berkeley.edu
+#SBATCH --account=fc_rothfelslab
+#SBATCH --qos=savio_normal
+#SBATCH --mail-user=cmt2@berkeley.edu
 #SBATCH --mail-type=ALL
+#SBATCH --mem-per-cpu=35G
 #SBATCH --time=72:00:00 
 
 bash moveandrename.sh
