@@ -8,6 +8,6 @@
 #SBATCH --mem-per-cpu=35G
 #SBATCH --time=72:00:00 
 
-bash moveandrename.sh
+bash transcriptomeProcessing/moveandrename.sh
 
 exit
