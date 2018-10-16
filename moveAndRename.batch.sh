@@ -5,7 +5,6 @@
 #SBATCH --qos=savio_normal
 #SBATCH --mail-user=cmt2@berkeley.edu
 #SBATCH --mail-type=ALL
-#SBATCH --mem-per-cpu=35G
 #SBATCH --time=72:00:00 
 
 bash transcriptomeProcessing/moveandrename.sh
