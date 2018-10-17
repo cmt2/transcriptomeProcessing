@@ -1,5 +1,5 @@
 #!/bin/bash -l
-#SBATCH --job-name=moveL2
+#SBATCH --job-name=cat_trin
 #SBATCH --partition=savio2_htc
 #SBATCH --account=fc_rothfelslab
 #SBATCH --qos=savio_normal
