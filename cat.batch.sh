@@ -8,6 +8,6 @@
 #SBATCH --mem-per-cpu=30G
 #SBATCH --time=72:00:00 
 
-bash catForTrinity.sh
+bash transcriptomeProcessing/catForTrinity.sh
 
 exit
