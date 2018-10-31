@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #SBATCH --job-name=moveL2
 #SBATCH --partition=savio2_htc
-#SBATCH --account=fc_rothfelslab
+#SBATCH --account=fc_zingiber
 #SBATCH --qos=savio_normal
 #SBATCH --mail-user=cmt2@berkeley.edu
 #SBATCH --mail-type=ALL
